@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/d8dfee175b.js" crossorigin="anonymous"></script>
+</head>
+<body class="scheduler-body">
+    <header class="header">
+        <a href="index.html"><i class="fa-solid icon-solid fa-house"></i></a>
+        <h1 class="header__title">Chique Dog</h1>
+        <a href="user.html"><i class="fa-solid icon-solid fa-user"></i></a>
+    </header>
+    <main class="scheduler-page">
+        <h1 class="scheduler-page__title">O CARINHO E DEDICAÇÃO QUE SEU PET MERECE</h1>
+        <section class="scheduler-section">
+            <div class="scheduler-section__select-service">
+                <h2 class="scheduler-section__titles">Selecione o(s) Serviço(s)</h2>
+                    <li class="select-service__options">
+                        <label>
+                            <input type="checkbox" id="menu" class="select-service__checkbox1">
+                            <label for="menu" class="container__rotulo">
+                                <p class="option_1">Banho</p>
+                            </label>
+                        </label>
+
+                        <label>
+                            <input type="checkbox" id="menu2" class="select-service__checkbox2">
+                            <label for="menu2" class="container__rotulo">
+                                <p class="option_2">Tosa</p>
+                            </label>
+                        </label>
+                    </li>
+
+                <label class="select-service__check">
+                    <input type="checkbox" id="menu" class="check-button">Seu pet possui alguma necessidade especial?
+                    <textarea name="special-needs" id="special-needs" class="special-needs-text"></textarea>
+                </label>
+                
+            </div>
+            <div class="scheduler-section__calendar">
+                <h2 class="scheduler-section__titles">Data da Reserva</h2>
+                <img src="assets/Calendar.png" alt="Calendário">
+            </div>
+          
+        </section>
+        <section class="timetable">
+            <h2 class="timetable__title">Grade Agenda</h2>
+            <div class="timetable__grid">
+                <div class="grid__option">
+                    <a href="#" class="option__text TimeChecked">09:00A</a>
+                    <a href="#" class="option__text TimeNotChecked">09:00B</a>
+                </div>
+                <div class="grid__option">
+                    <a href="#" class="option__text TimeNotChecked">10:00A</a>
+                    <a href="#" class="option__text TimeChecked">10:00B</a>
+                </div>
+                <div class="grid__option">
+                    <a href="#" class="option__text TimeNotChecked">11:00A</a>
+                    <a href="#" class="option__text TimeNotChecked">11:00B</a>
+                </div>
+                <div class="grid__option">
+                    <a href="#" class="option__text TimeChecked">13:00A</a>
+                    <a href="#" class="option__text TimeChecked">13:00B</a>
+                </div>
+                <div class="grid__option">
+                    <a href="#" class="option__text TimeChecked">14:00A</a>
+                    <a href="#" class="option__text TimeNotChecked">14:00B</a>
+                </div>
+                <div class="grid__option">
+                    <a href="#" class="option__text TimeNotChecked">15:00A</a>
+                    <a href="#" class="option__text TimeChecked">15:00B</a>
+                </div>
+                <div class="grid__option">
+                    <a href="#" class="option__text TimeChecked">16:00A</a>
+                    <a href="#" class="option__text TimeChecked">16:00B</a>
+                </div>
+                <div class="grid__option">
+                    <a href="#" class="option__text TimeNotChecked">17:00A</a>
+                    <a href="#" class="option__text TimeNotChecked">17:00B</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
